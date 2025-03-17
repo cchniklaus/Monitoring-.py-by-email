@@ -7,3 +7,9 @@ For example:
 Sender's email: 123456789@qq.com
 Authorization code: aobnciabvou8ab
 Recipient's email: 45678913@qq.com
+
+simple command as follows:
+
+python test.py 123456789@qq.com aobnciabvou8ab 45678913@qq.com
+
+nohup python test.py 123456789@qq.com aobnciabvou8ab 45678913@qq.com > run.log 2>&1 &
